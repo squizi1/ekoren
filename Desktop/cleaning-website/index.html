@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="no">
+    <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<head>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profesjonell rengjøring i Bergen – Miljøvennlig og pålitelig</title>
+  <meta name="description" content="Vi tilbyr profesjonell og miljøvennlig rengjøring av hus og leiligheter i Bergen. Kontakt oss for gratis befaring i dag!">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="rengjøring Bergen, flyttevask Bergen, vaskehjelp, renhold firma, miljøvennlig rengjøring">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V6PHJ03BSN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-V6PHJ03BSN');
+</script>
+
+
+  <!-- Микроразметка Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ekoren Renhold",
+    "image": "https://ekoren.no/images/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bergen",
+      "addressCountry": "NO"
+    },
+    "telephone": "+47 939 23 399",
+    "url": "https://ekoren.no",
+    "description": "Profesjonell og miljøvennlig rengjøring i Bergen. Vi tilbyr flyttevask, fast rengjøring og gratis befaring."
+  }
+  </script>
+</head>
+
+</head>
+<body>
+
+    <!-- Верхняя шапка -->
+    <header class="top-header">
+        <div class="container top-header-flex">
+      
+          <!-- Логотип -->
+          <div class="logo">
+            <img src="images/logo.png" alt="Ekorenhold Logo">
+          </div>
+      
+          <!-- Навигационные ссылки -->
+          <nav class="header-nav">
+            <a href="#services">Våre Tjenester</a>
+            <a href="#cleaning-process">Hvordan vi gjør rent</a>
+            <a href="#about">Om oss</a>
+            <a href="#contact">Kontakt</a>
+          </nav>
+      
+          <!-- Кнопка и контакты -->
+          <div class="header-actions">
+            <a href="#contact" class="cta-button">Bestill rengjøring</a>
+            <div class="header-contact">
+              <p>📍 Bergen, Norge</p>
+              <p>📞 +47 939 23 399</p>
+            </div>
+          </div>
+      
+        </div>
+      </header>
+      
+
+    <!-- Hovedseksjon -->
+    <section class="hero">
+      <div class="container">
+          <h2>Kvalitet du ser, omsorg du føler!</h2>
+          <p>Profesjonell rengjøring for hjem og bedrifter i Bergen.</p>
+          <a href="#contact" class="btn">Bestill rengjøring</a>
+      </div>
+  </section>
+
+    <!-- Våre Tjenester -->
+    <section id="services" data-aos="fade-up">
+    <div class="container">
+        <h2>Våre Tjenester</h2>
+        <div class="services-container">
+            <div class="service-image" onclick="openModal('images/1.png')">
+                <img src="images/1.png" alt="Regelmessig rengjøring">
+            </div>
+            <div class="service-image" onclick="openModal('images/2.png')">
+                <img src="images/2.png" alt="Dyp rengjøring">
+            </div>
+            <div class="service-image" onclick="openModal('images/3.png')">
+                <img src="images/3.png" alt="Flyttevask">
+            </div>
+            <div class="service-image" onclick="openModal('images/4.png')">
+                <img src="images/4.png" alt="Tilleggstjenester">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bestill gratis konsultasjon -->
+<section id="free-consultation">
+    <div class="consultation-banner">
+        <img src="images/kontakt.jpg" alt="Kontakt banner">
+        <div class="container">
+            <div class="consultation-wrapper">
+                <div class="consultation-left">
+                    <div class="consultation-text">
+                        <h2>Bestill gratis konsultasjon med vår leder!</h2>
+                        <p>Vi hjelper deg med å finne den beste løsningen for ditt hjem eller firma.</p>
+                    </div>
+                </div>
+                <div class="consultation-right">
+                    <form class="consultation-form">
+                        <input type="text" placeholder="Ditt navn" required>
+                        <input type="tel" placeholder="Telefonnummer" required>
+                        <button type="submit" class="cta-button">Send forespørsel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Hvordan vi gjør rent -->
+<section id="cleaning-process" data-aos="fade-up">
+    <div class="container">
+        <h2>Hvordan vi gjør rent</h2>
+        <div class="cleaning-menu">
+            <button class="cleaning-tab active" data-room="badet">Badet</button>
+            <button class="cleaning-tab" data-room="soverommet">Soverommet</button>
+            <button class="cleaning-tab" data-room="kjøkken">Kjøkken</button>
+            <button class="cleaning-tab" data-room="inngang">Inngang</button>
+        </div>
+        <div class="cleaning-content">
+            <div class="room-content active" id="badet">
+                <img src="images/bathroom.png" alt="Rengjøring av badet">
+            </div>
+            <div class="room-content" id="soverommet">
+                <img src="images/bedroom.png" alt="Rengjøring av soverommet">
+            </div>
+            <div class="room-content" id="kjøkken">
+                <img src="images/kitchen.png" alt="Rengjøring av kjøkken">
+            </div>
+            <div class="room-content" id="inngang">
+                <img src="images/hallen.png" alt="Rengjøring av inngang">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Om oss -->
+<section id="about" data-aos="fade-up">
+    <div class="about-background">
+      <div class="container about-wrapper">
+        
+        <div class="about-text-box">
+            <div class="about-text">
+                <h2>Om oss – Profesjonell og miljøvennlig <span style="white-space: nowrap;">rengjøring i Bergen</span></h2>
+              
+                <p><strong>Ekoren Renhold Service</strong> er et <strong>lokalt rengjøringsbyrå i Bergen</strong> som tilbyr grundig og miljøvennlig rengjøring av både private boliger og små bedrifter.</p>
+              
+                <p>Vi har lang erfaring med <strong>rengjøring av leiligheter og hus</strong>, og tilbyr fleksible løsninger for <strong>flyttevask, fast vaskehjelp og engangsoppdrag</strong> — alltid tilpasset kundens behov.</p>
+              
+                <p>Selskapet er <strong>offisielt registrert og forsikret</strong>. Våre ansatte er nøye opplært og bruker kun <strong>miljøvennlige rengjøringsprodukter</strong> for å sikre et trygt og sunt innemiljø.</p>
+              
+                <p>Vi setter kvalitet først – og leverer <strong>renhold i Bergen</strong> med fokus på pålitelighet, nøyaktighet og respekt for ditt hjem.</p>
+              </div>
+              
+  
+        <div class="about-highlights">
+          <div class="highlight">
+            <img src="images/eco-icon.png" alt="Miljøvennlig rengjøring Bergen">
+            <h3>Miljøvennlige produkter</h3>
+          </div>
+          <div class="highlight">
+            <img src="images/permit-icon.png" alt="Forsikret rengjøringsfirma">
+            <h3>Registrert og forsikret</h3>
+          </div>
+          <div class="highlight">
+            <img src="images/quality-icon.png" alt="Kvalitetsgaranti renhold Bergen">
+            <h3>Førsteklasses kvalitet</h3>
+          </div>
+          <div class="highlight">
+            <img src="images/fast-icon.png" alt="Renhold med punktlighet">
+            <h3>Punktlig og pålitelig</h3>
+          </div>
+          <div class="highlight">
+            <img src="images/training-icon.png" alt="Opplærte renholdere">
+            <h3>Erfarne medarbeidere</h3>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+
+<!-- Kontakt -->
+<section id="contact" data-aos="fade-up">
+    <div class="container">
+        <div class="contact-block">
+            <h2>Vi er her for deg, kontakt oss når som helst</h2>
+            <p>Har du spørsmål om våre tjenester eller vil du bare snakke med oss? Ta gjerne kontakt.</p>
+            <div class="contact-options">
+                <div class="contact-option">
+                    <div class="option-header">
+                        <span class="option-icon">💬</span>
+                        <h3>Chat med oss</h3>
+                    </div>
+                    <p>Direkte fra denne nettsiden</p>
+                    <button class="option-button unified-button primary-button" id="open-chat">Start chat</button>
+                </div>
+                <div class="contact-option">
+                    <div class="option-header">
+                        <span class="option-icon">✉️</span>
+                        <h3>E-post oss</h3>
+                    </div>
+                    <p>Fra din e-postapp</p>
+                    <a href="mailto:ecorenhol@gmail.com" class="option-button unified-button">ecorenhol@gmail.com</a>
+                </div>
+                <div class="contact-option">
+                    <div class="option-header">
+                        <span class="option-icon">📞</span>
+                        <h3>Ring eller send SMS</h3>
+                    </div>
+                    <p>Fra din telefon</p>
+                    <a href="tel:+4793923399" class="option-button unified-button">+47 939 23 399</a>
+                </div>
+            </div>
+            <p class="contact-footer">Vi er tilgjengelig 24/7 – kontakt oss når som helst, vi svarer så raskt vi kan.</p>
+        </div>
+    </div>
+    <div class="facebook-block">
+        <p>Bli med oss på Facebook</p>
+        <a href="https://www.facebook.com/share/1FR3ZZoy7h/?mibextid=wwXIfr" target="_blank" class="facebook-button">
+            <img src="images/facebook-icon.png" alt="Facebook ikon">
+            Følg oss på Facebook
+        </a>
+    </div>
+    
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <p>&copy; 2025 Ekoren Renhold. Alle rettigheter reservert.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#" class="footer-link">Personvernerklæring</a>
+        <a href="#" class="footer-link">Vilkår for bruk</a>
+        <a href="#" class="footer-link">Cookies</a>
+      </div>
+    </div>
+  </footer>
+  
+
+    <!-- Подключаем скрипт -->
+    
+    <!-- Модальное окно чата -->
+    <div id="chat-modal" class="chat-modal">
+        <div class="chat-box">
+          <div class="chat-header">
+            <img src="images/photochat.jpg" alt="Olena" class="agent-avatar" />
+            <div class="agent-info">
+              <strong>Олена</strong>
+              <span class="agent-status">pålogget</span>
+            </div>
+            <button class="close-modal">&times;</button>
+          </div>
+          <div class="chat-body" id="chat-body">
+            <div class="agent-message" id="initial-message"></div>
+          </div>
+          <form id="chat-form">
+            <textarea maxlength="300" placeholder="Skriv en melding..." required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      <script src="js/script.js"></script>
+      
+
+      
+<button id="scrollToTopBtn" title="Opp">⬆</button>
+
+<!-- Модальное окно изображения -->
+<div id="modal" class="image-modal">
+    <span class="close-modal-img" onclick="closeModal()">&times;</span>
+    <img class="modal-content-img" id="modal-img" alt="">
+    <p id="modal-caption" class="modal-caption"></p>
+  </div>
+  
+  <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,  // продолжительность анимации в мс
+    once: true       // анимация только при первом появлении
+  });
+</script>
+
+</body>
+</html>
